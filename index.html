@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<title>Animated Slider</title>
+</head>
+<body>
+	<div class="outer-wrapper">
+		<div class="options">
+			<form action="main.js" class="slider-options">
+			<select class="slider-select-show" size="">
+				<option disabled value="0">кол-во отображаемых слайдов:</option>
+				<option selected value="1">отображать слайдов: 1</option>
+				<option value="2">отображать слайдов: 2</option>
+				<option value="3">отображать слайдов: 3</option>
+			</select>
+				<select class="slider-select-scroll" size="1">
+				<option disabled value="0">кол-во перелистываемых слайдов:</option>
+				<option selected value="1">перелистывать слайдов: 1</option>
+				<option value="2">перелистывать слайдов: 2</option>
+				<option value="3">перелистывать слайдов: 3</option>
+			</select>
+			<img src="pictures/gear.png" alt="gear" class="gear">
+		</form>	
+		</div>
+		<div class="slider-wrapper">
+			<div class="slider">
+				<div class="slider-line">
+					<img src="pictures/1.jpg" alt="img" class="slider-item">
+					<img src="pictures/2.jpg" alt="img" class="slider-item">
+					<img src="pictures/3.jpg" alt="img" class="slider-item">
+					<img src="pictures/4.jpg" alt="img" class="slider-item">
+					<img src="pictures/5.jpg" alt="img" class="slider-item">
+					<img src="pictures/6.jpg" alt="img" class="slider-item">
+					<img src="pictures/7.jpg" alt="img" class="slider-item">
+					<img src="pictures/8.jpg" alt="img" class="slider-item">
+					<img src="pictures/9.jpg" alt="img" class="slider-item">
+				</div>
+			</div>
+			<div class="slider-buttons">
+				<button class="prev">prev</button>
+				<button class="next">next</button>
+			</div>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
